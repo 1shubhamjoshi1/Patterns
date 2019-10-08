@@ -1,14 +1,16 @@
-package com.shubham.programming.singleton;
+package com.shubham.programming.singleton.EagerInitializedSingleton;
 
 public class EagerInitializedSingleton {
     private static final EagerInitializedSingleton instance = new EagerInitializedSingleton();
-    private EagerInitializedSingleton() {}
+
+    private EagerInitializedSingleton() {
+    }
 
     public static EagerInitializedSingleton getInstance() {
         return instance;
     }
 
     public void getDbConnection() {
-        System.out.println("Getting the db connection ");
+        System.out.println("Getting the db connection from " + this.getClass().getSimpleName());
     }
 }
