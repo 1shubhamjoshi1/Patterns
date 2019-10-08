@@ -1,4 +1,4 @@
-package com.shubham.programming.singleton.LazyInitialization;
+package singleton.LazyInitialization;
 
 public class Main {
     public static void main(String[] args) {
