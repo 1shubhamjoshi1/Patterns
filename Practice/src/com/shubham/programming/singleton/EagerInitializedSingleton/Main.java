@@ -1,4 +1,4 @@
-package com.shubham.programming.singleton.EagerInitializedSingleton;
+package singleton.EagerInitializedSingleton;
 
 public class Main {
     public static void main(String[] args) {

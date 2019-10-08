@@ -1,4 +1,4 @@
-package com.shubham.programming.singleton.LazyInitialization;
+package singleton.LazyInitialization;
 
 public class LazyInitialization {
     private static LazyInitialization instance;

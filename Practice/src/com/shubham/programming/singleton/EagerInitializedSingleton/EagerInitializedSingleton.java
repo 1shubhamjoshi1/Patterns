@@ -1,4 +1,4 @@
-package com.shubham.programming.singleton.EagerInitializedSingleton;
+package singleton.EagerInitializedSingleton;
 
 public class EagerInitializedSingleton {
     private static final EagerInitializedSingleton instance = new EagerInitializedSingleton();

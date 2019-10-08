@@ -1,4 +1,4 @@
-package com.shubham.programming.singleton.StaticBlockinItialization;
+package singleton.StaticBlockinItialization;
 
 public class Main {
     public static void main(String[] args) {
